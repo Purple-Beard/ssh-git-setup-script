@@ -22,7 +22,7 @@ ssh-keygen -t rsa -b 4096 -C $email -f ~/.ssh/id_rsa -q -N ""
 if [[ "$OSTYPE" == "darwin"* ]]; then
     # Mac OSX
     pbcopy < ~/.ssh/id_rsa.pub
-elif [[ "$OSTYPE" == "cygwin" or "$OSTYPE" == "msys" ]]; then
+elif [[ "$OSTYPE" == "cygwin"] || ["$OSTYPE" == "msys" ]]; then
     # POSIX compatibility layer and Linux environment emulation for Windows
     cat ~/.ssh/id_rsa.pub | clip
 fi
