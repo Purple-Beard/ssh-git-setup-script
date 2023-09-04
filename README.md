@@ -8,12 +8,8 @@ From Bash, run the following commands in a project folder such as `Documents/git
 ```sh
 git clone https://github.com/Purple-Beard/ssh-git-setup-script.git
 cd ssh-git-setup-script
+chmod +x ./gitSetup.sh
 ./gitSetup.sh
 ```
 
 if you get an error message saying that the script is not executable, you may need to run the following
-
-```sh
-chmod +x ./gitSetup.sh
-./gitSetup.sh
-```
