@@ -11,5 +11,3 @@ cd ssh-git-setup-script
 chmod +x ./gitSetup.sh
 ./gitSetup.sh
 ```
-
-if you get an error message saying that the script is not executable, you may need to run the following
